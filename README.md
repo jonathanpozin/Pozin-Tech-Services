@@ -41,7 +41,7 @@ This project was born out of the realization that many students either lack reli
 
 ## Who We’ve Helped
 
-- Over **20+ students** in the Staten Island area have received either repaired or custom-built PCs
+- Over **20+ people** in the Staten Island area have received either repaired or custom-built PCs
 - Hosted multiple **free consultations and upgrade sessions** for local youth
 - Supported students building PCs for the first time
 - Collaborated with peers for joint repair sessions and build workshops
@@ -72,18 +72,9 @@ This project was born out of the realization that many students either lack reli
 
 We’re just getting started.
 
-- Launch a YouTube tutorial series
 - Create downloadable PC-building guides
 - Offer “Tech Literacy Workshops” for local middle and high schoolers
 - Expand our reach with additional volunteers and school partnerships
-
----
-
-## How You Can Help
-
-- **Donate used hardware** (GPUs, cases, fans, cables)
-- **Spread the word** in your local school or community
-- **Contact us** if you need a build or want to learn how
 
 ---
 
