@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pozin Tech Services</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+        header, footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 20px 10px;
+            border-bottom: 3px solid #3498db;
+        }
+        nav {
+            background-color: #181818;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #3498db;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px 15px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #3498db;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            background-color: #222;
+            border: 1px solid #444;
+            color: #fff;
+        }
+        .contact-form button {
+            background-color: #3498db;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 280px;
+            height: auto;
+            border: 2px solid #3498db;
+            border-radius: 6px;
+        }
+        footer {
+            font-size: 0.9em;
+            border-top: 1px solid #333;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pozin Tech Services</h1>
+    <p>Empowering students through custom PC building & tech repair</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Pozin Tech Services is a student-led nonprofit initiative offering custom PC builds, repairs, and tech support to peers and community members. We aim to empower young learners with access to reliable tech solutions.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>⚙️ Custom PC Builds (Performance & Budget Options)</li>
+        <li>🔧 Troubleshooting and Hardware Diagnostics</li>
+        <li>🧠 Free Consultations & Upgrade Advice</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>Image Gallery</h2>
+    <div class="gallery">
+        <img src="https://cdn.mos.cms.futurecdn.net/UR8eHmsmsANPZxAkMcSSAK.jpg" alt="Gaming PC">
+        <img src="https://i.pcmag.com/imagery/reviews/00aEKHz1GRO7i13ZtPYbIRR-1.fit_scale.size_760x427.v1569476946.jpg" alt="PC Build">
+        <img src="https://www.build-gaming-computers.com/images/gaming-pc.jpg" alt="Build Setup">
+        <img src="https://techguided.com/wp-content/uploads/2022/01/PC-Build.jpg" alt="Open Case">
+        <img src="https://i.ytimg.com/vi/hI3UnfzT9E8/maxresdefault.jpg" alt="Repair Work">
+        <img src="https://www.cgdirector.com/wp-content/uploads/media/2021/09/Completed-PC-Build-scaled.jpg" alt="Finished Build">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:jonathanpozin@gmail.com" style="color:#3498db;">jonathanpozin@gmail.com</a></p>
+    <p>Phone: <a href="tel:3477075603" style="color:#3498db;">347-707-5603</a></p>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" onclick="alert('Message sending is simulated only.')">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Pozin Tech Services. All rights reserved.
+</footer>
+
+</body>
+</html>
