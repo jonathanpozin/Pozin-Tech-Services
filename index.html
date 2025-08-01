@@ -112,12 +112,13 @@
     <p>Email: <a href="mailto:jonathanpozin@gmail.com" style="color:#3498db;">jonathanpozin@gmail.com</a></p>
     <p>Phone: <a href="tel:3477075603" style="color:#3498db;">347-707-5603</a></p>
 
-    <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea rows="4" placeholder="Your Message" required></textarea>
-        <button type="submit" onclick="alert('Message sending is simulated only.')">Send Message</button>
+    <form action="https://formspree.io/f/mgvzzgza" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
     </form>
+    
 </section>
 
 <footer>
